@@ -1,0 +1,7 @@
+# Create a homeassistant yaml file to load factory_theme.js as an extra module in frontend:, then set a theme
+
+frontend:
+  extra_module_url:
+    - /local/factory_theme.js
+  extra_module_url_es5:
+    - /local/factory_theme.js
